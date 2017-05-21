@@ -1,0 +1,10 @@
+CREATE TABLE kirjoittaja(
+kirjoittajaID INT PRIMARY KEY NOT NULL,
+nimi VARCHAR(50) NOT NULL,
+postaus VARCHAR(500) NOT NULL,
+postausAika VARCHAR(20) 
+);
+
+INSERT INTO kirjoittaja VALUES 
+(1,'eka kirjoittaja','terve siisti vieraskirja','01.01.2017'),
+(2,'toka kirjoittaja','moikka!', '02.02.2017');

@@ -1,0 +1,65 @@
+<html>
+<head>
+    <title>Vieras Kirja</title>
+
+    <link href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8/themes/base/jquery-ui.css" rel="stylesheet" type="text/css" />
+   
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.js" type="text/javascript"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8/jquery-ui.min.js" type="text/javascript"></script>
+    <script type="text/javascript" src="tallennus.js"></script>
+    <script type="text/javascript" src="ViestinMaara.js"></script>
+    <script type="text/javascript" src="kaikkiPostaukse.js"></script>
+   
+
+</head>
+<body>
+			<p><font size="6">VIERASKIRJA</font></p>
+			<table>
+			<tr>
+			<td>
+			<div id="viestiMaara1">your content</div>
+			</td>
+			<td>
+			<div id="viestiMaara2">your content</div>
+			</td>
+			</tr>
+			</table>   
+
+	<p><font size="4">Jätä viesti!</font></p>
+
+    <form id="ekaSec">
+
+
+                <p>
+                	<label for="nimi">Nimi:</label><br />
+                    <input id="nimi" type="text" name="nimi" />
+                    </p> 
+                  <p></p> 
+               <p>
+                    <label for="tallennaViesti">Viesti:</label><br />
+                  	  <textarea rows="8" cols="50" name="tallennaViesti" form="usrform" id="tallennaViesti">Enter text here...</textarea>
+                </p>
+                <p>
+                    <input id="myButton" type="button" value="Submit" />
+                </p>
+    </form>
+    <div id="viimeisin">
+        <fieldset>
+            <legend>Viimeisin viesti</legend>
+                 <div id="ajaxViesti"></div>
+                  <div id="viestiMaara"></div>
+        </fieldset>
+        
+    </div>   
+ 
+     <div id="kolmasSec">
+        <fieldset>
+        
+        	           
+            <legend>Kaikki Viestit</legend>
+                 <div id="kaikkiViestit"></div>
+        </fieldset>
+    </div>   
+
+</body>
+</html>
